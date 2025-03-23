@@ -1,0 +1,148 @@
+const photos = [
+    {img:'assets/image/whatsNew/original.avif',
+        title:'Shimokitazawa Xiaomi scarf - 2 colors',
+        user:'ALLGENDER',
+        price:'US$ 3.90',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (1).avif',
+        title:'MELLER | EMIN neat adventure square sunglasses',
+        user:'AKTI ACCESSORY',
+        price:'',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (2).avif',
+        title:'3rd Santian water-proof Nissan waterproof oversized windbreaker',
+        user:'3rdparadise',
+        price:'US$ 64.65',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (3).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (4).avif',
+        title:'Earth gold polka dot pressed folding skirt retro vintage vintage',
+        user:'arsonstudio',
+        price:'US$ 37.06',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (5).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (6).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (7).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (8).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (9).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (10).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (11).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (12).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (13).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (14).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (15).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (16).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (17).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (18).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (19).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (20).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (21).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (22).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    {img:'assets/image/whatsNew/original (16).avif',
+        title:'FOAK vintage Italian apricot sleeveless vest',
+        user:'foakvintage',
+        price:'US$ 19.50',
+        sale:'none'
+    },
+    
+];
+export default photos;
