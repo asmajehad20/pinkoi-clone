@@ -1,0 +1,124 @@
+.whatsNew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.whatsNewList {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 0 6vw;
+    flex-wrap: wrap;
+}
+
+.product{
+    width:170px;
+    display:flex;
+
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.image{
+    position: relative;
+}
+
+.hidden-Like {
+    display: flex;
+    position: absolute;
+    bottom: 3px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(210, 208, 213, 0.5); 
+    width: 100%;
+    opacity: 0; 
+    visibility: hidden;
+    
+}
+
+.image img:hover + .hidden-Like,
+.image:hover .hidden-Like,
+.product:hover .hidden-Like {
+    visibility: visible;
+    opacity: 1; 
+}
+
+.title{
+    color: rgb(57, 57, 62);
+    font-size: 14px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    height: 2.4em; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.user{
+    font-size: 14px;
+    margin-top: -7px;
+    color: rgb(102, 102, 106);
+
+}
+.user:hover{
+    text-decoration: underline;
+}
+.price{
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(0, 51, 84);
+    margin:-5px 0 0 0;
+    cursor:text;
+}
+
+.pagination4 {
+    position: absolute;
+    top: 35%;
+    left: 6vw;
+    right: 6vw;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    transform: translateY(-50%); 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination4 .prev-btn,
+.pagination4 .next-btn {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: rgb(241, 241, 249);
+    border: none;
+    border-radius: 100%;
+    font-size: 16px;
+    color: rgb(132, 132, 136);
+}
+
+
+i.fa-heart {
+    position: absolute;
+    color: white;  
+    background-color: rgba(210, 208, 213, 0.5);
+    font-size: 24px;  
+    height: 22px;
+    width: 22px;
+    border-radius: 100%;
+    bottom: 10px;  
+    right: 10px;
+}
+
+i.fa-heart:hover {
+    background-color: rgb(109, 106, 106);
+}

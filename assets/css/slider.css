@@ -1,0 +1,74 @@
+
+#myCarousel {
+    transform: translateX(-20vw);
+    width: 140%; 
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.carousel-item {
+    flex: 0 0 33.33%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    width: 90%; 
+    height: 380px;
+    object-fit: cover;
+    opacity: 0.5; 
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.carousel-item.active img {
+    width: 100%;
+    opacity: 1;
+}
+
+/* Buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 60px;
+    opacity: 0.8;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev:hover i,
+.carousel-control-next:hover i{
+    opacity: 1;
+    color:black;
+} 
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    font-size: 24px;
+    color: rgb(181, 177, 177);  
+}
+
+.carousel-control-prev {
+    left: 31.5%; 
+}
+
+.carousel-control-next {
+    right: 31.5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 100%;
+    height: 100%;
+}
+
